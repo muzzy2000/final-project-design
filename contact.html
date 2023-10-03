@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="The contact information will a form for those who are interested in signing up">
+        <meta name="author" content="Kaileigh Burnside">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="shortcut icon" href="images/adachisprings.jpg" type="image/x-icon">
+        <link rel="icon" href="images/adachisprings.jpg" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nunito&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+<body>
+    <header>
+        <div class="container">
+            <div class="center">
+        <h1>Adachi Springs</h1>
+            </div>
+        <nav>
+            <ul class="center2">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="images/swiss-valley.jpg" alt="A picture of a green, vibrant valley"  width="1440" height="560">   
+        </div>
+    </header>
+
+    <main>
+        
+            <section class="container2">
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <p> Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+       
+                <img src="images/swiss-peak.jpg" alt="a mountain peak in the middle with trees and a river">
+            </div> 
+
+                <form action="https://wp.zybooks.com/form-viewer.php"  method="POST" target="_blank">
+
+                    <label for="my-name">Name<span class="required">*</span></label>
+                    <input type="text" name="my-name" id="my-name" required>
+            
+                    <label for="my-email">Email<span class="required">*</span></label>
+                    <input type="email" name="my-email" id="my-email" required>
+
+                    <label for="my-phone">Phone<span class="required">*</span></label>
+                    <input type="tel" name="my-phone" id="my-phone" required>
+
+                    <fieldset>
+                        <legend>Preferred Method of Contact</legend>
+                        <input type="radio" name="contact-pref" id="pref-email" checked>
+                        <label for="pref-email">Email</label>
+                        <input type="radio" name="contact-pref" id="pref-phone">
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>
+
+                    <label for="my-comments">Comments<span class="required">*</span></label>
+                    <textarea name="my-comments" id="my-comments" required></textarea>
+                    
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+           
+                </form>    
+            </section>
+    </main>
+
+        <footer>
+            <p>Copyright ©2023 - Adachi Springs</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
